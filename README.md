@@ -9,14 +9,16 @@ This is a Quick implementation to get started with the Python-Fitbit API on Ubun
 ```
 
 2) Register a new Fitbit App, https://dev.fitbit.com/apps/new 
-        --Make sure to use Type: "Personal" and set CallbackURL to http://127.0.0.1:8080/
+
+      Make sure to use Type: "Personal" and set CallbackURL to http://127.0.0.1:8080/
 
 3) Make a virtual environment if needed (recommended), then activate:
-```
-     mkdir ~/envs (create folder for envs, optional)
-     python3 -m venv ~/envs/fitbit (make "fitbit" virtual environment, creates a folder "fitbit" in ~/envs/)
-     source ~/envs/fitbit/bin/activate (activate your environment)
-```
+
+     `mkdir ~/envs` (create folder for envs, optional)
+     
+     `python3 -m venv ~/envs/fitbit` (make "fitbit" virtual environment, creates a folder "fitbit" in ~/envs/)
+     
+     `source ~/envs/fitbit/bin/activate` (activate your environment)
 
 4) Move implement.py to the python-fitbit folder, then work from there
 ```
