@@ -31,9 +31,14 @@ This is a Quick implementation to get started with the Python-Fitbit API on Ubun
 ```     
 5) modify `~/python-fitbit/implement.py` to include your client_id and client_secret for first run
 
-6) Run: `python3 ~/python-fitbit/implement.py`
+Change this line:
+```python
+ login = create_credsfile('<your id>','<your secret>')
+```
 
-7) Example Program:
+6) Run: `python3 ~/python-fitbit/implement.py` to create a credentials file and an auth token file
+
+7) After creating credentials and auth files, create an example program:
 ```python
 from implement import load_client
 
